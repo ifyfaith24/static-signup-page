@@ -43,11 +43,15 @@
         .inpt2 {
             margin-top: 30px;
             flex: 2;
+            /* border: 2px solid rgb(201, 24, 24); */
         }
         
         .inpt3 {
             margin-top: 30px;
             flex: 2;
+            /* border: 2px solid black; */
+            margin-bottom: 70px;
+            height: auto;
         }
         
         .inpt4 {
@@ -59,9 +63,12 @@
             position: relative;
             height: 45px;
             width: 90%;
-            margin-bottom: 17px;
+            margin-bottom: 10px;
             border-radius: 25px;
             border: 3px;
+            font-size: 15px;
+            gap: 3px;
+            text-align: center;
         }
         
         .signupbttn {
@@ -73,7 +80,8 @@
             margin-bottom: 17px;
             border-radius: 25px;
             border: 3px;
-            font-size: 20px;
+            font-size: 25px;
+            gap: 3px;
         }
         
         @media only screen and(max-width:750px) {
